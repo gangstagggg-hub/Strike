@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mørk modus: samme oppsett som values/, men med mørk bakgrunn og lyse ikoner i statuslinjen -->
+    <color name="app_background">#0B1210</color>
+    <bool name="light_theme">false</bool>
+    <style name="AppTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
